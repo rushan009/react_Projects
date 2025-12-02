@@ -1,0 +1,11 @@
+@import "tailwindcss";
+.glow {
+  text-shadow: 0 0 10px #b76cff,
+               0 0 20px #b76cff,
+               0 0 30px #b76cff,
+               0 0 40px #a020f0;
+}
+
+body{
+  background-color: "#1f0033" ;
+}
