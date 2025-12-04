@@ -18,7 +18,7 @@ const App = () => {
 
       setWeather(data);       // save data
       setLoading(false);      
-      console.log(data);
+      // console.log(data);
       
 
     } catch (error) {
@@ -34,7 +34,7 @@ const App = () => {
   return (
     <div className="min-h-screen w-full bg-[#1f0033]" >
       <Header/>
-      <WeatherMain/>
+      <WeatherMain weatherData={weather}/>
     </div>
   )
 }
